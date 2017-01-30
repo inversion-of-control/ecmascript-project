@@ -1,0 +1,42 @@
+{
+  "name": "@inversion-of-control/ecmascript-project",
+  "version": "0.0.5",
+  "description": "A modern, minimalist ecmascript toolset for linting, building and testing",
+  "main": "cli.js",
+  "scripts": {
+    "validate": "webpack-validator ./cmd/compile/webpack.config.js"
+  },
+  "bin": {
+    "ecmascript-project": "./cli.js"
+  },
+  "dependencies": {
+    "babel-core": "^6.22.1",
+    "babel-plugin-inferno": "^1.7.0",
+    "babel-preset-babili": "^0.0.10",
+    "babel-preset-latest": "^6.22.0",
+    "babel-runtime": "^6.22.0",
+    "clean-webpack-plugin": "^0.1.15",
+    "copy-webpack-plugin": "^4.0.1",
+    "cross-env": "^3.1.4",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "beta",
+    "npm-run": "^4.1.0",
+    "postcss-loader": "^1.2.2",
+    "recursive-readdir": "^2.1.0",
+    "style-loader": "^0.13.1",
+    "webpack": "2",
+    "webpack-dev-server": "2",
+    "webpack-validator": "2",
+    "yargs": "^6.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inversion-of-control/ecmascript-project.git"
+  },
+  "author": "John Gardiner <jwegardiner@gmail.com> (https://github.com/johngardiner)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inversion-of-control/ecmascript-project/issues"
+  },
+  "homepage": "https://github.com/inversion-of-control/ecmascript-project#readme"
+}

@@ -1,2 +1,2 @@
 # ecmascript-project
-A modern, minimalist library for linting, building and testing
+A modern, minimalist ecmascript toolset for linting, building and testing
